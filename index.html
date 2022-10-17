@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Luna </title>
+    <meta name="author" content="Luna">
+    <link rel="stylesheet" href="CSS-JS/navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <script src="CSS-JS/hideonscroll.js"></script>
+ 
+</head>
+
+<body>
+        
+            <nav>
+                <ul id="navbar">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a>Art</a>
+                        <ul class="dropdown-content">
+                            <li><a href="art/3d.html">3D</a></li>
+                            <li><a href="art/dig.html">Digital</a></li>
+                            <li><a href="art/trad.html">Traditional</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a>Projects</a>
+                    <ul class="dropdown-content">
+                        <li><a href="projects/games.html">Games</a></li>
+                        <li><a href="projects/app-web.html">App & Web</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="main/about.html">About</a></li>
+            </nav>
+
+            
+                <div class="slideshow-container">
+                
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="assets/images/3d-art/9.png" style="width:100%">
+                      <div class="text">3D Art</div>
+                    </div>
+                
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="assets/images/dig-art/9.png" style="width:100%">
+                      <div class="text">Digital Art</div>
+                    </div>
+                
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="assets/images/trad-art/17.jpg" style="width:100%">
+                      <div class="text">Traditional Art</div>
+                    </div>
+                
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+
+                  <!-- The dots/circles -->
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                  </div>
+                      
+                  <script src="CSS-JS/slideshow.js"></script>
+</body>
+
+</html>
